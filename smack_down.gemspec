@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'smack_down/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "smack-down"
+  spec.name          = "smack_down"
   spec.version       = SmackDown::VERSION
   spec.authors       = ["Dave Woodall"]
   spec.email         = ["dave@hireDave.me"]
