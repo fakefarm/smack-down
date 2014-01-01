@@ -1,12 +1,12 @@
 # SmackDown
 
-TODO: Write a gem description
+A collection of styling in SMACSS format
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'smack-down'
+    gem 'smack_down'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install smack-down
+    $ gem install smack_down
 
 ## Usage
 
