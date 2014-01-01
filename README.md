@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'smack_down'
+    gem 'smack-down'
 
 And then execute:
 
@@ -14,11 +14,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install smack_down
+    $ gem install smack-down
 
 ## Usage
 
-TODO: Write usage instructions here
+Include the following line in your `application.scss` file
+
+    @import 'smack-down';
+
+** RESTART SERVER **
 
 ## Contributing
 
