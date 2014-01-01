@@ -1,0 +1,17 @@
+.m-header {
+  @include media($bp-tablet) {
+    padding: 3em 0;
+  }
+}
+
+.header-shade{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  z-index: -1;
+}
+
+.header-sub-title h2 {
+  font-weight: $base-font-bold;
+}

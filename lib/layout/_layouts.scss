@@ -1,0 +1,16 @@
+.l-container {
+  background: $container;
+}
+
+.l-header {
+  @include media($bp-tablet) {
+    margin-top: -15em;
+  }
+}
+
+.l-header,
+.l-body,
+.l-footer {
+  padding: 0 1em;
+  @include outer-container;
+}

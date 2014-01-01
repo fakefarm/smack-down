@@ -1,0 +1,14 @@
+.hero-image {
+  height: 17em;
+  overflow: hidden;
+  img {
+    width: 100%;
+    z-index: -30;
+    position: relative;
+  }
+}
+
+.m-image--signature {
+  @include shift(6);
+  img { width: 50%; }
+}

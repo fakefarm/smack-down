@@ -1,0 +1,40 @@
+$base-font-family:  "proxima nova", sans-serif;
+$paragraph-font:    "proxima nova", sans-serif;
+$condensed:         "proxima nova condensed", sans-serif;
+
+$base-font-size:    100%;
+$base-font-weight:  normal;
+$base-font-bold:    700;
+
+$heading-font-family: $base-font-family;
+$heading-font-weight: 900;
+
+@mixin text-overrides {
+  h1, h2, h3, h4 {
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    font-size: $base-font-size + 80%;
+    font-weight: $base-font-bold;
+  }
+  p{
+    margin: 0;
+    padding: 0 1em 1em;
+    img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  i, em {
+    font-family: georgia;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+  strong {
+    font-weight: 900;
+  }
+  blockquote {
+    margin-bottom: 1em;
+  }
+}
